@@ -1,0 +1,125 @@
+/* Genel stil */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+ 
+/* Üst başlık alanı */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+ 
+.top-bar h2 {
+    margin: 0;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
+.top-bar button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.top-bar button:hover {
+    background-color: #d32f2f;
+}
+ 
+/* Form alanı */
+form {
+    background-color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+ 
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 16px;
+}
+ 
+form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    transition: border-color 0.3s ease;
+}
+ 
+form input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+ 
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+ 
+form button:hover {
+    background-color: #388e3c;
+}
+ 
+/* Mesaj kutuları */
+.alert {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+ 
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+/* Geri Dön Butonu */ .back-button {
+    display: inline-block;
+    background-color: #e53935;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+.back-button:hover {
+    background-color: #c62828;
+}
